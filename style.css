@@ -1,4 +1,5 @@
-#primeira li {
+
+#principal .li {
     list-style-type: none;
     display: inline-block;
     padding-left: 20px;
@@ -9,17 +10,20 @@
    letter-spacing: 0em;
    text-align: left;
    color: #FFFFFF;
+   text-decoration: none;
 
 }
 
-#cabecalho {
-    display: grid;
-    grid-template-columns: 90% auto;
-    padding-top: 20px;
-    
+#principal {
+    display: flex;
+    width: 52%;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #bababa;
 }
 
-#cabecalho button{
+
+#principal button{
     width: 70px;
     height: 40px;
     font-family: "Inter", sans-serif;
@@ -30,17 +34,31 @@
     text-align: center;
     color: #FFFFFF;
     background: rgba(12, 112, 242, 1);
-    margin-top: 8px;
+    align-items: center;
     border: 0px;
-   
-
+   margin-left: 480px;
+   border-radius: 2px;
+   box-shadow: 3px 2px 4px 0px rgba(48, 130, 238, 0.25);
+   cursor: pointer;
 }
 
-#primeira {
+#principal a:hover{
+    color: #5e5d5d;
+    transform: translateX(2px);
+}
+
+button:hover{
+   transform:translatey(10px);
+    transition-duration: 2s;
+}
+
+ 
+
+#principal {
     background-color: #303030;
     margin-top: -10px;
-    width: auto;
-    height: 103px;
+    width: 100%;
+    height: 90px;
     background-image: linear-gradient(10%) #fff;
 }
 
