@@ -1,4 +1,8 @@
 
+*{
+    margin-left: -5px;
+}
+
 #principal .li {
     list-style-type: none;
     display: inline-block;
@@ -57,7 +61,7 @@ button:hover{
 #principal {
     background-color: #303030;
     margin-top: -10px;
-    width: 100%;
+    width: auto;
     height: 90px;
     background-image: linear-gradient(10%) #fff;
 }
@@ -66,10 +70,11 @@ button:hover{
 font-family: "Inter", sans-serif;
 font-size: 50px;
 font-weight: 800;
-line-height: 97px;
+line-height: 20px;
 letter-spacing: 0em;
 text-align: center;
 color: rgba(255, 255, 255, 1);
+margin-top: 100px;
 
 }
 
@@ -87,8 +92,8 @@ color: rgba(255, 255, 255, 1);
 
 #bootcamp {
     width: auto;
-    height: 2206px;
-    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%),
+    height: 1500px;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 30.84%),
     linear-gradient(0deg, #303030, #303030);
     padding-top: 20px;
 
@@ -101,6 +106,7 @@ top: 752px;
 left: 405px;
 border-radius: 10px;
 background: rgba(255, 255, 255, 0.9);
+padding-left: 10px;
 
 
 }
@@ -129,7 +135,7 @@ color: rgba(255, 255, 255, 1);
 
 #formulario{
     margin-left: 30%;
-    margin-top: 180px;
+    margin-top: 160px;
 }
 
 .front{
@@ -160,7 +166,59 @@ line-height: 39px;
 letter-spacing: 0em;
 text-align: center;
 color: rgba(255, 255, 255, 1);
+}
+
+.sobreadnc a{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #FFFFFF;
+   text-decoration:none;
+}
+
+#formacao h2{
+border-radius: 20px;
+}
+
+.sobreadnc{
+    background-color: rgba(12, 112, 242, 1);
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    columns: 3;
+    padding-top: 50px;
+}
+
+#cep{
+    list-style-type: none;
+   
+    padding-left: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 70px;
+}
+
+#ultima{
+    background-color: rgba(12, 112, 242, 1);
+}
+
+.sobreadnc a:hover{
+    color: rgb(104, 104, 104);
+    transform: translateY(5px);
+}
 
 
-
+.links{
+    margin-left: -20px;
 }
