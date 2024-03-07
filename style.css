@@ -229,7 +229,7 @@ border-radius: 20px;
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
 /* Inicio */ 
     #principal .li {
@@ -281,14 +281,16 @@ margin-top: 20px;
 }
 
 #formulario .inp{
-    width: 320px;
+    width: 95%;
     height: 40px;
-    margin-left: -79px;
+    margin-left: -65px;
+    text-align: center;
 }
 
 #formulario .label{
-    margin-left: -75px;
+    margin-left: -60px;
     font-size: 20px;
+    text-align: left;
     
    
 }
@@ -319,7 +321,7 @@ margin-top: 20px;
 
 
 #formulario button {
-    width: 300px;
+    width: 95%;
     height: 40px;
     font-size: 15px; 
     text-align: center;
