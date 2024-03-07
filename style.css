@@ -1,6 +1,8 @@
 
 *{
-    margin-left: -5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #principal .li {
@@ -15,6 +17,8 @@
    text-align: left;
    color: #FFFFFF;
    text-decoration: none;
+ 
+  
 
 }
 
@@ -28,7 +32,7 @@
 
 
 #principal button{
-    width: 70px;
+    width: 80px;
     height: 40px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -40,7 +44,7 @@
     background: rgba(12, 112, 242, 1);
     align-items: center;
     border: 0px;
-   margin-left: 480px;
+   margin-left: 450px;
    border-radius: 2px;
    box-shadow: 3px 2px 4px 0px rgba(48, 130, 238, 0.25);
    cursor: pointer;
@@ -221,4 +225,145 @@ border-radius: 20px;
 
 .links{
     margin-left: -20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+/* Inicio */ 
+    #principal .li {
+display: flex;
+flex-direction: column;
+width: 100%;
+text-align: center;
+align-items: center;
+margin-left: -5px;
+
+
+}
+
+#principal .botao1 {
+   margin-left: 5px;
+   margin-bottom: 59px;
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   padding-top: 6px;
+   width: 100%;
+   text-align: center;
+   
+}
+
+#principal {
+   padding-top: 60px;
+   margin-right: 0px;
+}
+
+/* Formulario Bootcamp*/
+#bootcamp{
+    padding-top: 30px;
+    width: 100%;
+    height: 1050px;
+}
+
+#bootcamp h1 {
+font-size: 30px;
+margin-top: -1px;
+margin-top: 20px;
+
+}
+
+#bootcamp h2{
+    font-size: 15px; 
+    text-align: center;
+    margin-left: 10px;
+}
+
+#formulario .inp{
+    width: 320px;
+    height: 40px;
+    margin-left: -79px;
+}
+
+#formulario .label{
+    margin-left: -75px;
+    font-size: 20px;
+    
+   
+}
+
+#formulario{
+    margin-top: -1px;
+    margin-top: 50px;
+   
+
+    
+}
+.check{
+    width: 12px;
+    height: 12px;
+    margin-left: -55px;
+    margin-inline-end:5px ;
+    
+
+  
+}
+.front{
+    font-size: 12px;
+    text-align: left;
+    margin-inline-end: 58px;
+    
+    margin-left: -4px;  
+}
+
+
+#formulario button {
+    width: 300px;
+    height: 40px;
+    font-size: 15px; 
+    text-align: center;
+    margin-left: -55px;
+  }
+/* Footer */
+
+.sobreadnc {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    
+}
+
+#termosdeuso {
+    margin-top:  15px;
+    font-size: 15px;
+}
+
+
+
+#titulo {
+    font-size: 20px;
+padding-bottom: 10px;
+}
+
+.links a {
+    font-size: 15px;
+    line-height: 40px;
+}
+
+#cep h3{
+    font-size: 15px;
+    margin-top: -40px;
+}
+
+#termosdeuso a {
+    font-size: 15px; 
+  
+}
+
+#termosdeuso {
+    
+    padding: 40px;
+}
 }
